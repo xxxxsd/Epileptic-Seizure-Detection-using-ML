@@ -5,7 +5,9 @@ The corresponding time-series is sampled into 4097 data points. Each data point 
 
 We divided and shuffled every 4097 data points into 23 chunks, each chunk contains 178 data points for 1 second, and each data point is the value of the EEG recording at a different point in time.
 
-So now we have 23 x 500 = 11500 pieces of information(row), each information contains 178 data points for 1 second(column), the last column represents the label y {1,2,3,4,5}.
+We have compiled the data into a single file containing the data points for 100 people for 23 seconds.
+
+So now we have 23 x 5 x 100 = 11500 pieces of information(row), each information contains 178 data points for 1 second(column), the last column represents the label y {1,2,3,4,5}.
 
 The response variable is y in column 179, the Explanatory variables X1, X2, ..., X178
 
