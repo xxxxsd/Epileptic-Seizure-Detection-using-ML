@@ -11,4 +11,4 @@ So now we have 23 x 5 x 100 = 11500 pieces of information(row), each information
 
 The response variable is y in column 179, the Explanatory variables X1, X2, ..., X178
 
-There are 178 EEG features and 5 possible classes. The main goal of the dataset it's to be able to correctly identify epileptic seizures from EEG data, so a binary classification between classes of label 1 and the rest (2,3,4,5).
+There are 178 EEG features and 5 possible classes. The main goal of the dataset is to be able to correctly identify epileptic seizures from EEG data using binary classification between classes of label 1 and the rest (2,3,4,5) as label 0.
