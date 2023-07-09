@@ -8,6 +8,17 @@ We divided and shuffled every 4097 data points into 23 chunks, each chunk contai
 We have compiled the data into a single file containing the data points for 100 people for 23 seconds.
 
 So now we have 23 x 5 x 100 = 11500 pieces of information(row), each information contains 178 data points for 1 second(column), the last column represents the label y {1,2,3,4,5}.
+5 - eyes open, means when they were recording the EEG signal of the brain the patient had their eyes open
+
+4 - eyes closed, means when they were recording the EEG signal the patient had their eyes closed
+
+3 - Yes they identify where the region of the tumor was in the brain and recording the EEG activity from the healthy brain area
+
+2 - They recorder the EEG from the area where the tumor was located
+
+1 - Recording of seizure activity
+
+All subjects falling in classes 2, 3, 4, and 5 are subjects who did not have epileptic seizure. Only subjects in class 1 have epileptic seizure. Our motivation for creating this version of the data was to simplify access to the data via the creation of a .csv version of it. 
 
 The response variable is y in column 179, the Explanatory variables X1, X2, ..., X178
 
